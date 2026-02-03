@@ -11,12 +11,12 @@
 /* ************************************************************************** */
 
 #ifndef FT_POINT_H
-# define FT_POINT_H
+#define FT_POINT_H
 
-typedef set_point
+typedef int set_point
 {
-	float	x;
-	float	y;
+	int	x;
+	int	y;
 }	t_point;
 
 #endif
