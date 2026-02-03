@@ -11,9 +11,9 @@
 /* ************************************************************************** */
 
 #ifndef FT_POINT_H
-#define FT_POINT_H
+# define FT_POINT_H
 
-typedef int set_point
+typedef struct s_point
 {
 	int	x;
 	int	y;
